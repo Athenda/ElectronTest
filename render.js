@@ -1,3 +1,5 @@
+//writing comment new branch
+
 const videoElement = document.querySelector('video');
 const startBtn = document.getElementById('startBtn');
 const stopBtn = document.getElementById('stopBtn');
@@ -85,5 +87,5 @@ async function handleStop(e) {
 
   console.log( filePath );
 
-  writeFile(filePath, buffer, () => console.log('video saved successfully!'));  
+  writeFile(filePath, buffer, () => console.log('video saved successfully!'));
 }
